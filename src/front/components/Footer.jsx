@@ -66,7 +66,7 @@ const Footer = () => {
         <Row>
           <Col>
             <div className="footer-bottom">
-              <p>&copy; {currentYear} SistemasTech. Todos los derechos reservados.</p>
+              <p>&copy; {currentYear} Juan Sebastián Quinto. Todos los derechos reservados.</p>
             </div>
           </Col>
         </Row>
