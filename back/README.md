@@ -4,7 +4,7 @@ Backend desarrollado con **Node.js** y **Express.js** para manejar los formulari
 
 ## 🚀 Características Implementadas
 
-### ✅ Requisitos del Profesor Cumplidos:
+### ✅ Requisitos:
 
 1. **Node.js + Express.js** - Framework web para Node.js
 2. **Manejo de Excepciones** - Clases personalizadas de errores
