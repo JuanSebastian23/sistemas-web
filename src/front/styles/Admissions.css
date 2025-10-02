@@ -1,0 +1,454 @@
+.admissions-page {
+  min-height: 100vh;
+  background-color: var(--bg-color);
+}
+
+/* Hero Section */
+.admissions-hero {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: var(--white);
+  padding: 5rem 0;
+  margin-bottom: 3rem;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  opacity: 0.95;
+  margin-bottom: 2rem;
+}
+
+.hero-buttons {
+  margin-top: 2rem;
+}
+
+.hero-buttons .btn {
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.hero-buttons .btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hero-image-wrapper {
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.section-subtitle {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+}
+
+/* Important Dates */
+.important-dates-section {
+  margin-top: 2rem;
+}
+
+.dates-card {
+  border: none;
+  border-radius: 1.5rem;
+  box-shadow: var(--shadow-lg);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: var(--white);
+}
+
+.dates-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.dates-title i {
+  margin-right: 1rem;
+}
+
+.date-item {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 1rem;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.date-item:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-5px);
+}
+
+.date-number {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.date-label {
+  font-size: 1rem;
+  opacity: 0.95;
+}
+
+/* Requirements Section */
+.requirements-section {
+  margin-top: 3rem;
+}
+
+.requirement-card {
+  border: none;
+  border-radius: 1rem;
+  box-shadow: var(--shadow);
+  transition: all 0.3s ease;
+  background: var(--white);
+}
+
+.requirement-card:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--shadow-lg);
+}
+
+.requirement-icon {
+  font-size: 3.5rem;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.requirement-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.requirement-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.requirement-list li {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--gray-200);
+  color: var(--text-secondary);
+  font-size: 1rem;
+}
+
+.requirement-list li:last-child {
+  border-bottom: none;
+}
+
+.requirement-list li i {
+  color: var(--success-color);
+  margin-right: 0.75rem;
+}
+
+/* Process Section */
+.process-section {
+  margin-top: 3rem;
+}
+
+.process-step {
+  position: relative;
+  text-align: center;
+  padding: 2rem 1rem;
+  background: var(--white);
+  border-radius: 1rem;
+  box-shadow: var(--shadow);
+  transition: all 0.3s ease;
+}
+
+.process-step:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--shadow-lg);
+}
+
+.step-number {
+  position: absolute;
+  top: -1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 3rem;
+  height: 3rem;
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.step-icon {
+  font-size: 3rem;
+  color: var(--accent-color);
+  margin: 1.5rem 0;
+}
+
+.step-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.step-description {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Scholarships Section */
+.scholarships-section {
+  margin-top: 3rem;
+}
+
+.scholarship-card {
+  border-radius: 1rem;
+  box-shadow: var(--shadow);
+  transition: all 0.3s ease;
+  background: var(--white);
+  border-width: 3px !important;
+}
+
+.scholarship-card:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--shadow-lg);
+}
+
+.scholarship-icon {
+  font-size: 3.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.scholarship-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.scholarship-percentage {
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--white);
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.scholarship-description {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  text-align: center;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.scholarship-requirements {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+.scholarship-requirements strong {
+  color: var(--text-primary);
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.scholarship-requirements ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.scholarship-requirements li {
+  padding: 0.25rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.scholarship-requirements li::before {
+  content: "•";
+  position: absolute;
+  left: 0.5rem;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+/* CTA Section */
+.cta-section {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+.cta-card {
+  border: none;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  transition: all 0.3s ease;
+}
+
+.cta-card:hover {
+  transform: scale(1.02);
+}
+
+.cta-image-wrapper {
+  position: relative;
+  height: 250px;
+  overflow: hidden;
+}
+
+.cta-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.cta-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(37, 99, 235, 0.3) 0%,
+    rgba(30, 41, 59, 0.6) 100%
+  );
+}
+
+.cta-content {
+  padding: 2rem;
+  text-align: center;
+}
+
+.cta-content h3 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.cta-content p {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.cta-content .btn {
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .admissions-hero {
+    padding: 3rem 0;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .hero-buttons .btn {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .section-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .dates-title {
+    font-size: 1.5rem;
+  }
+
+  .date-item {
+    padding: 1rem;
+  }
+
+  .date-number {
+    font-size: 1.5rem;
+  }
+
+  .requirement-icon {
+    font-size: 2.5rem;
+  }
+
+  .requirement-title {
+    font-size: 1.5rem;
+  }
+
+  .process-step {
+    margin-bottom: 3rem;
+  }
+
+  .step-icon {
+    font-size: 2.5rem;
+  }
+
+  .scholarship-icon {
+    font-size: 2.5rem;
+  }
+
+  .scholarship-percentage {
+    font-size: 1.5rem;
+  }
+
+  .cta-image-wrapper {
+    height: 200px;
+  }
+
+  .cta-content {
+    padding: 1.5rem;
+  }
+
+  .cta-content .btn {
+    width: 100%;
+  }
+}

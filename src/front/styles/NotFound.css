@@ -1,0 +1,90 @@
+.notfound-page {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, var(--gray-100) 0%, var(--white) 100%);
+  padding: 2rem 0;
+}
+
+.min-vh-80 {
+  min-height: 80vh;
+}
+
+.notfound-icon {
+  font-size: 6rem;
+  color: var(--warning-color);
+  margin-bottom: 1rem;
+  animation: shake 0.5s ease-in-out;
+}
+
+.notfound-title {
+  font-size: 8rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  line-height: 1;
+}
+
+.notfound-subtitle {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.notfound-text {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+}
+
+.notfound-buttons .btn {
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.notfound-buttons .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-10px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(10px);
+  }
+}
+
+@media (max-width: 768px) {
+  .notfound-icon {
+    font-size: 4rem;
+  }
+
+  .notfound-title {
+    font-size: 5rem;
+  }
+
+  .notfound-subtitle {
+    font-size: 1.5rem;
+  }
+
+  .notfound-text {
+    font-size: 1rem;
+  }
+
+  .notfound-buttons .btn {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .notfound-buttons .me-3 {
+    margin-right: 0 !important;
+  }
+}

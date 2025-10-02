@@ -1,0 +1,113 @@
+.formulario-page {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 2rem 0;
+  position: relative;
+}
+
+.formulario-page-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(241, 245, 249, 0.95) 0%,
+    rgba(255, 255, 255, 0.90) 100%
+  );
+  z-index: 0;
+}
+
+.formulario-content {
+  position: relative;
+  z-index: 1;
+}
+
+.formulario-card {
+  border: none;
+  border-radius: 1rem;
+  background-color: var(--white);
+}
+
+.formulario-icon {
+  font-size: 4rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.formulario-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.form-section-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--gray-200);
+}
+
+.formulario-card .form-label {
+  font-weight: 500;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.formulario-card .form-control,
+.formulario-card .form-select {
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--gray-300);
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.formulario-card .form-control:focus,
+.formulario-card .form-select:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 0.2rem rgba(37, 99, 235, 0.25);
+}
+
+.formulario-button {
+  padding: 0.75rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  background-color: var(--primary-color);
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.formulario-button:hover {
+  background-color: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+@media (max-width: 768px) {
+  .formulario-page {
+    padding: 1rem 0;
+  }
+
+  .formulario-card .p-5 {
+    padding: 2rem !important;
+  }
+
+  .formulario-icon {
+    font-size: 3rem;
+  }
+
+  .formulario-title {
+    font-size: 1.5rem;
+  }
+
+  .form-section-title {
+    font-size: 1.25rem;
+  }
+}

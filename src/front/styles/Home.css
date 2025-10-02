@@ -1,0 +1,366 @@
+.home-page {
+  min-height: 100vh;
+}
+
+/* Carousel Styles */
+.home-carousel {
+  margin-bottom: 3rem;
+}
+
+.carousel-image-wrapper {
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-img {
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.carousel-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(37, 99, 235, 0.3) 0%,
+    rgba(14, 116, 144, 0.5) 50%,
+    rgba(30, 41, 59, 0.7) 100%
+  );
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  backdrop-filter: blur(10px);
+  bottom: 3rem !important;
+}
+
+.carousel-caption h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.carousel-caption p {
+  font-size: 1.25rem;
+  margin-bottom: 0;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+/* Video Section */
+.video-section {
+  padding: 3rem 0;
+  background: linear-gradient(
+    135deg,
+    rgba(37, 99, 235, 0.05) 0%,
+    rgba(8, 145, 178, 0.05) 100%
+  );
+}
+
+.video-wrapper {
+  position: relative;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  transition: transform 0.3s ease;
+}
+
+.video-wrapper:hover {
+  transform: scale(1.02);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.promo-video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 1.5rem;
+  max-height: 600px;
+  object-fit: cover;
+}
+
+.video-overlay-text {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  background: rgba(37, 99, 235, 0.9);
+  color: var(--white);
+  padding: 1rem 2rem;
+  border-radius: 0.75rem;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+}
+
+.video-overlay-text h3 {
+  margin: 0;
+  font-size: 1.75rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Section Styles */
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.section-subtitle {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+}
+
+/* Feature Cards */
+.feature-card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow);
+  background-color: var(--white);
+  overflow: hidden;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--shadow-lg);
+}
+
+.feature-card:hover .feature-image {
+  transform: scale(1.1);
+}
+
+.feature-card:hover .feature-image-overlay {
+  opacity: 0.5;
+}
+
+.feature-image-wrapper {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.feature-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.5s ease;
+}
+
+.feature-image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(37, 99, 235, 0.2) 0%,
+    rgba(37, 99, 235, 0.4) 100%
+  );
+  transition: opacity 0.3s ease;
+}
+
+.feature-icon {
+  font-size: 3rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.feature-card .card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.feature-card .card-text {
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+/* Stats Section */
+.stats-section {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  border-radius: 1rem;
+  color: var(--white);
+}
+
+.stat-item {
+  padding: 1rem;
+}
+
+.stat-number {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.stat-label {
+  font-size: 1.1rem;
+  opacity: 0.95;
+  margin: 0;
+}
+
+/* Technology Showcase Section */
+.technology-showcase {
+  margin-top: 2rem;
+}
+
+.tech-image-card {
+  position: relative;
+  height: 400px;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  transition: transform 0.3s ease;
+}
+
+.tech-image-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2);
+}
+
+.tech-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.5s ease;
+}
+
+.tech-image-card:hover .tech-image {
+  transform: scale(1.1);
+}
+
+.tech-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(37, 99, 235, 0.5) 0%,
+    rgba(30, 41, 59, 0.8) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease;
+}
+
+.tech-image-card:hover .tech-overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(37, 99, 235, 0.7) 0%,
+    rgba(30, 41, 59, 0.9) 100%
+  );
+}
+
+.tech-content {
+  text-align: center;
+  color: var(--white);
+  padding: 2rem;
+}
+
+.tech-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.tech-content h4 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.tech-content p {
+  font-size: 1.2rem;
+  opacity: 0.95;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+  .carousel-image-wrapper {
+    height: 300px;
+  }
+
+  .carousel-img {
+    height: 300px;
+  }
+
+  .carousel-caption {
+    padding: 1rem;
+    bottom: 1rem !important;
+  }
+
+  .carousel-caption h2 {
+    font-size: 1.5rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+
+  .video-section {
+    padding: 2rem 0;
+  }
+
+  .promo-video {
+    max-height: 400px;
+  }
+
+  .video-overlay-text {
+    top: 1rem;
+    left: 1rem;
+    padding: 0.75rem 1.5rem;
+  }
+
+  .video-overlay-text h3 {
+    font-size: 1.25rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .feature-image-wrapper {
+    height: 150px;
+  }
+
+  .stat-number {
+    font-size: 2rem;
+  }
+
+  .stat-label {
+    font-size: 0.9rem;
+  }
+
+  .tech-image-card {
+    height: 300px;
+  }
+
+  .tech-content h4 {
+    font-size: 1.5rem;
+  }
+
+  .tech-content p {
+    font-size: 1rem;
+  }
+
+  .tech-icon {
+    font-size: 3rem;
+  }
+}

@@ -1,0 +1,282 @@
+.about-page {
+  min-height: 100vh;
+}
+
+/* Hero Section */
+.about-hero {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: var(--white);
+  padding: 5rem 0;
+  margin-bottom: 3rem;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  opacity: 0.95;
+}
+
+.hero-image-wrapper {
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Mission & Vision Cards */
+.mission-card,
+.vision-card {
+  border: none;
+  border-radius: 1rem;
+  box-shadow: var(--shadow-lg);
+  transition: transform 0.3s ease;
+}
+
+.mission-card {
+  border-left: 5px solid var(--primary-color);
+}
+
+.vision-card {
+  border-left: 5px solid var(--secondary-color);
+}
+
+.mission-card:hover,
+.vision-card:hover {
+  transform: translateY(-10px);
+}
+
+.mission-icon,
+.vision-icon {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.mission-icon {
+  color: var(--primary-color);
+}
+
+.vision-icon {
+  color: var(--secondary-color);
+}
+
+.mission-title,
+.vision-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: var(--text-primary);
+}
+
+.mission-card .card-text,
+.vision-card .card-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.section-subtitle {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+}
+
+/* Values Section */
+.values-section {
+  margin-top: 3rem;
+}
+
+.value-item {
+  text-align: center;
+  padding: 2rem 1rem;
+  border-radius: 1rem;
+  background: var(--white);
+  box-shadow: var(--shadow);
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.value-item:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--shadow-lg);
+}
+
+.value-icon {
+  font-size: 3rem;
+  color: var(--accent-color);
+  margin-bottom: 1.5rem;
+}
+
+.value-item h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.value-item p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+/* Why Choose Us Section */
+.why-choose-section {
+  margin-top: 3rem;
+}
+
+.why-item {
+  background: var(--white);
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+
+.why-item:hover {
+  transform: scale(1.02);
+}
+
+.why-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.why-content {
+  padding: 2rem;
+}
+
+.why-content h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.why-content h4 i {
+  color: var(--primary-color);
+  margin-right: 0.5rem;
+}
+
+.why-content p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+/* Accreditation Section */
+.accreditation-section {
+  background: linear-gradient(135deg, var(--success-color) 0%, var(--accent-color) 100%);
+  border-radius: 1.5rem;
+  padding: 3rem 2rem;
+  color: var(--white);
+  box-shadow: var(--shadow-lg);
+}
+
+.accreditation-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.accreditation-icon {
+  font-size: 5rem;
+  margin-bottom: 1.5rem;
+  opacity: 0.95;
+}
+
+.accreditation-content h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.accreditation-content p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  opacity: 0.95;
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-hero {
+    padding: 3rem 0;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .hero-image-wrapper {
+    margin-top: 2rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .section-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .mission-title,
+  .vision-title {
+    font-size: 1.75rem;
+  }
+
+  .value-item {
+    padding: 1.5rem 1rem;
+  }
+
+  .why-image {
+    height: 200px;
+  }
+
+  .why-content {
+    padding: 1.5rem;
+  }
+
+  .accreditation-section {
+    padding: 2rem 1.5rem;
+  }
+
+  .accreditation-icon {
+    font-size: 4rem;
+  }
+
+  .accreditation-content h3 {
+    font-size: 2rem;
+  }
+
+  .accreditation-content p {
+    font-size: 1rem;
+  }
+}
