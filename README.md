@@ -12,32 +12,25 @@ Una aplicación web moderna y profesional desarrollada con React, Bootstrap y Re
 
 ## 📸 Capturas de Pantalla
 
-### Página Principal
 ![Pagina Principal](src/front/images/vistas/Macbook-Air-localhost.png)
 
-### Página de Inicio
 ![Home](src/front/images/vistas/Macbook-Air-localhost%20(1).png)
 
-### Página de Login
 ![Login](src/front/images/vistas/Macbook-Air-localhost%20(2).png)
 
-### Página de Registro
 ![Registro](src/front/images/vistas/Macbook-Air-localhost%20(3).png)
 
-### Página Sobre Nosotros
 ![About](src/front/images/vistas/Macbook-Air-localhost%20(4).png)
 
-### Página de Curriculum
 ![Curriculum](src/front/images/vistas/Macbook-Air-localhost%20(5).png)
 
-### Página de Admisiones
 ![Admissions](src/front/images/vistas/Macbook-Air-localhost%20(6).png)
 
-### Página de Contacto
 ![Contact](src/front/images/vistas/Macbook-Air-localhost%20(7).png)
 
-### Formulario de Inscripcion
 ![Formulario](src/front/images/vistas/Macbook-Air-localhost%20(8).png)
+
+## 📁 Estructura del Proyecto
 
 ## 📁 Estructura del Proyecto
 
@@ -174,8 +167,8 @@ El backend está completamente implementado con **Node.js** y **Express.js**, cu
    - DELETE - Eliminar recursos
 
 ### Pruebas de Métodos HTTP
+
 ![Muestras de Metodos HTTP](src/front/images/muestras-metodos.png)
-*Ejemplo de pruebas de los métodos HTTP implementados en el backend*
 
 ### Estructura del Backend
 
